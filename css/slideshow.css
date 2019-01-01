@@ -1,0 +1,30 @@
+  .hidden {
+    display: none;
+  }
+  
+  .container > div {
+    display: inline-block;
+  }
+  
+  #slideshow {
+    margin: 0;
+    position: relative;
+    width: 310px;
+    height: 130px;
+    top: 7%;
+    left: 20%;
+  }
+  
+  #slideshow > div {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+  }
+  
+  #slideshow img {
+    width: 100%;
+    margin: 0;
+    border: solid 1px #283593;
+  }
